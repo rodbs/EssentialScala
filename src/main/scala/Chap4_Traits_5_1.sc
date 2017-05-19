@@ -19,17 +19,17 @@ final case object Yellow extends TrafficLight {
 }
 
 //pattern matching
-sealed trait TrafficLight {
-  def next : TrafficLight =  this match {
-    case Red => Green
-    case Green => Yellow
-    case Yellow => Red
+sealed trait TrafficLight2 {
+  def next : TrafficLight2 =  this match {
+    case Red2 => Green2
+    case Green2 => Yellow2
+    case Yellow2 => Red2
    }
 }
 
-final case object Red extends TrafficLight
-final case object Green extends TrafficLight
-final case object Yellow extends TrafficLight
+final case object Red2 extends TrafficLight2
+final case object Green2 extends TrafficLight2
+final case object Yellow2 extends TrafficLight2
 
 
 

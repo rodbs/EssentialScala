@@ -6,6 +6,8 @@ val oswald =  Cat("Oswald","Black", "Milk")
 val henderson =  Cat("Hederson","Ginger", "Chips")
 val quentin =  Cat("Quentin", "Tabby and white", "Curry")
 
+oswald
+
 
 //3.4.5.2 Roger Ebert Said it Best…
 case class Director (firstName:String, lastName:String, yearOfBirth:Int) {
